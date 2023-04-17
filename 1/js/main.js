@@ -1,4 +1,5 @@
-import products from "../../db.json" assert {type:'json'}
+import products from "https://mlmlmlml00700700700.github.io/data/db.json" assert {type:'json'}
+//import products from "../../db.json" assert {type:'json'}
 //assert {type:'json'} -외부파일이 json이라고 확실하게 명시
 console.log(products)
 
@@ -42,5 +43,3 @@ const importData = ()=>{
 }
 
 button.addEventListener('click', importData);
-
-
